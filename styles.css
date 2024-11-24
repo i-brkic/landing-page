@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+/* first part */
 body {
   margin: 0px;
   padding: 0px;
@@ -10,12 +11,13 @@ body {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 0px 100px 50px;
+  gap: 40px;
+  padding: 0px 225px 80px;
 }
 
 .first-up {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -71,4 +73,46 @@ body {
 a {
   font-size: 18px;
   color: #e5e7eb;
+}
+/* first part end */
+
+/* second part begin */
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 0px 0px 80px;
+}
+
+.info-c {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.infos {
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+  width: 125px;
+  height: 125px;
+}
+
+.info-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 57px;
+}
+
+.text {
+  width: 125px;
 }
