@@ -77,7 +77,6 @@ a {
 /* first part end */
 
 /* second part begin */
-
 h2 {
   text-align: center;
   font-size: 36px;
@@ -116,3 +115,72 @@ h2 {
 .text {
   width: 125px;
 }
+/* second part end */
+
+/* third part begin */
+.third-part {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quote {
+  text-align: center;
+  padding: 80px 240px 0px;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.author {
+  font-size: 20px;
+  padding-right: 240px;
+  padding-bottom: 45px;
+  text-align: end;
+  font-weight: bold;
+}
+/* third part end */
+
+/* fourth part begin */
+.fourth-part {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px 60px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 975px;
+  height: 100px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 15px 50px;
+  color: #fff;
+}
+
+.box-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #3882f6;
+  color: #fff;
+}
+/* fourth part end */
+
+/* fifth part begin */
+
+.fifth-part {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+  color: white;
+}
+
+/* fifth part end */
